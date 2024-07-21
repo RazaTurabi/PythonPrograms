@@ -269,14 +269,14 @@
 # else:
 #     print('not palindrome')
 
-set1 = {10,20,30,40,70}
-set2 = {10,20,30,40,50,60}
+# set1 = {10,20,30,40,70}
+# set2 = {10,20,30,40,50,60}
 
-# print(set1)
-# print(set2)
+# # print(set1)
+# # print(set2)
 
-y = set1.difference(set2)
-print(y)
+# y = set1.difference(set2)
+# print(y)
 
 # y = set1.intersection(set2)
 # print(y)
@@ -1571,34 +1571,1610 @@ print(y)
 #     print(n2,end=' ')
 
 
-class Car:
+# class Car:
 
-    def __init__(self, make, model, year):
-        self.make = make
-        self.model = model
-        self.year = year
+#     def __init__(self, make, model, year):
+#         self.make = make
+#         self.model = model
+#         self.year = year
 
-    def get_make(self):
-        return self.make
+#     def get_make(self):
+#         return self.make
     
-    def get_model(self):
-        return self.model
+#     def get_model(self):
+#         return self.model
     
-    def get_year(self):
-        return self.year
+#     def get_year(self):
+#         return self.year
 
-    def set_make(self,m):
-        self.make = m
+#     def set_make(self,m):
+#         self.make = m
 
-    def set_model(self,mo):
-        self.model = mo
+#     def set_model(self,mo):
+#         self.model = mo
 
-    def set_year(self,yr):
-        self.year = yr
+#     def set_year(self,yr):
+#         self.year = yr
 
-    def show(self):
-        print(f'the car {self.year} {self.model} {self.make} is starting')
+#     def show(self):
+#         print(f'the car {self.year} {self.model} {self.make} is starting')
 
-ford = Car(make='ford',model='mustang',year=2023)
+# ford = Car(make='ford',model='mustang',year=2023)
 
-ford.show()
+# ford.show()
+
+
+# n = int(input('Enter Number: '))
+# n1 = 0
+# n2 = 1
+# n3 = n2
+# count = 0
+
+# while(count<=n):
+#     count+=1
+#     n1, n2 = n2, n3
+#     n3 = n1 + n2
+#     print(n3,end=' ')
+
+
+# n = int(input('Enter Number: '))
+
+# def factorial(n):
+#     if n < 0:
+#         return 0
+#     elif n <= 1:
+#         return 1
+#     else:
+#         fact = 1
+#         while(n > 1):
+#             fact *= n
+#             n -= 1
+#         return fact
+    
+# print(factorial(n))
+
+# n = int(input('Enter Number: '))
+# n1 = 0
+# n2 = 1
+# n3 = n2
+# count = 0
+
+# while(count<=n):
+#     count+=1
+#     n1, n2 = n2, n3
+#     n3 = n1 + n2
+#     print(n2, end=' ')
+
+# n = int(input('Enter Number: '))
+# def isprime(n):
+#     if n<=1:
+#         print('Not prime')
+#     else:
+#         for i in range(2, n):
+#             if n % i == 0:
+#                 return f'{n} Not prime'
+#             return f'{n} is prime'
+        
+# print(isprime(n))
+            
+# n = int(input('Enter Number: '))
+# square = n * n
+# flag = 0
+
+# while(n>0):
+#     if(n%10!=square%10):
+#         print('Not automorphic')
+#         flag = 1
+#         break
+
+#     n = n//10
+#     square = square//10
+
+# if(flag==0):
+#     print('Is automorphic')
+
+# n = int(input('Enter Number: '))
+# temp = n
+# rev = 0
+
+# while(n>0):
+#     dig = n % 10
+#     rev = rev * 10 + dig
+#     n = n//10
+
+# if(temp==rev):
+#     print('is palindrome')
+# else:
+#     print('Not palindrome')
+
+
+# n = int(input('Enter Number: '))
+# for i in range(n, 0, -1):
+#     for j in range(1, i+1):
+#         print('*', end=' ')
+#     print()
+
+# n = int(input('Enter Number: '))
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print('*',end=' ')
+#     print()
+
+# n = int(input('Enter Number: '))
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(i,end=' ')
+#     print()
+
+
+# class Students:
+
+#     def __init__(self,id,name,age):
+#         self.id = id
+#         self.name = name
+#         self.age = age
+
+#     def show(self):
+#         print(f'ID: {self.id}')
+#         print(f'Name: {self.name}')
+#         print(f'Age: {self.age}')
+
+# student = Students(id=1,name='Raza',age=24)
+
+
+# student.show()
+
+# class Car:
+
+#     hiked_price = 0
+
+#     # @classmethods
+#     def increased_price(self,price):
+#         self.hiked_price = price * 0.1 + price
+
+#     # def increased_price(self,price):
+#     #     self.hiked_price = price * 0.1 + price
+
+# ford = Car()
+# bmw = Car()
+
+# ford.increased_price(1000)
+# bmw.increased_price(100)
+
+# print(ford.hiked_price)
+# print(bmw.hiked_price)
+
+
+# n = int(input('Enter Number: '))
+# def factorial(n):
+#     return 1 if n==0 or n==1 else n * factorial(n-1)
+
+# print(factorial(n))
+
+# size = int(input('Enter Number: '))
+
+# def square_hollow(size):
+#     if(size<=2):
+#         print('Number should be greater then 2')
+
+#         return
+    
+#     for i in range(size):
+#         for j in range(size):
+#             if i == 0 or i == size-1 or j == 0 or j == size-1:
+#                 print("*", end=' ')
+#             else:
+#                 print(' ',end=' ')
+#         print()
+
+# square_hollow(size)
+
+# class Area:
+
+
+#     def __init__(self,length,breath,height,radius):
+#         self.length = length
+#         self.breath = breath
+#         self.height = height
+#         self.radius = radius
+
+#     def show(self):
+#         print(f'Area of a retangle is : {self.length * self.breath}')
+
+#     def show1(self):
+#         print(f'Volume of a Cuboid is : {self.length * self.breath * self.height}')
+
+#     def show3(self):
+#         pi = 3.14
+#         print(f'Area of a Circle is : {pi * self.radius * self.radius}')
+
+# rectangle = Area(length=5,breath=5,height=0,radius=0)
+# cuboid = Area(length=2, breath=2, height=10,radius=0)
+# circle = Area(length=0,breath=0,height=0,radius=10)
+
+# rectangle.show()
+# cuboid.show1()
+# circle.show3()
+
+
+# n = int(input('Enter Number: '))
+# temp = n 
+# rev = 0
+
+# while(n>0):
+#     dig = n % 10
+#     rev = rev * 10 + dig
+#     n = n//10
+
+# if(temp==rev):
+#     print('Is palindrome')
+# else:
+#     print('Not palindrome')
+
+# num = int(input('Enter Number: '))
+
+# def isprime(num):
+#     if(num<1):
+#         print('Not prime')
+#     else:
+#         for i in range(2,num):
+#             if num%i==0:
+#                 return f'not a prime'
+#             return f'is a prime'
+    
+# print(isprime(num))
+
+# n = int(input('Enter Number: '))
+# n1 = 0
+# n2 = 1
+# n3 = n2
+# count = 0
+
+# while(count<=n):
+#     count+=1
+#     n1, n2 = n2, n3
+#     n3 = n1 + n2
+#     print(n2,end=' ')
+
+# n = int(input('Enter Number: '))
+# s = n
+# b = len(str(n))
+# sum1 = 0
+
+# while n != 0:
+#     r = n % 10
+#     sum1 = sum1+(r**b)
+#     n = n//10
+
+# if(s == sum1):
+#     print('Is armstrong')
+# else:
+#     print('Not armstrong')
+
+# n = int(input('Enter Number: '))
+
+# def factorial(n):
+#     if n < 0:
+#         return 0
+#     elif n <= 1:
+#         return 1
+#     else:
+#         fact = 1
+#         while(n>1):
+#             fact *= n
+#             n -= 1
+#         return fact
+    
+# print(factorial(n))
+
+# def factorail(n):
+#     return 1 if n == 0 or n == 1 else n * factorail(n-1)
+
+# print(factorail(n))
+
+# n = int(input('Enter Number: '))
+# square = n*n
+# flag = 0
+
+# while(n>0):
+#     if(n%10!=square%10):
+#         print('Not automorphic')
+#         flag = 1
+#         break
+
+#     square = square//10
+#     n = n//10
+
+# if(flag==0):
+#     print('Is automorphic')
+
+# str1 = 'lets go'
+
+# def reverse(x):
+#     return x[::-1]
+
+# print(reverse(str1))
+
+# size = int(input('Enter Number: '))
+
+# def square_hollow(size):
+#     if size <= 2:
+#         print('Size should be greater then 2')
+
+#         return
+    
+#     for i in range(size):
+#         for j in range(size):
+#             if i == 0 or i == size-1 or j == 0 or j == size-1:
+#                 print('*',end=' ')
+#             else:
+#                 print(' ',end=' ')
+#         print()
+
+# square_hollow(size)
+
+# n = int(input('Enter Number: '))
+
+# for i in range(n, 0, -1):
+#     for j in range(1, i+1):
+#         print('*',end=' ')
+#     print()
+
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print('*',end=' ')
+#     print()
+
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(i,end=' ')
+#     print()
+
+
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(j,end=' ')
+#     print()
+
+
+# n1 = int(input('Enter Number: '))
+# n2 = int(input('Enter Number: '))
+
+# print('Value of N1 before swapping',n1)
+# print('Valur of N2 before swapping',n2)
+
+# # opt 1
+# # temp = n1
+# # n1 = n2
+# # n2 = temp
+
+# # opt2
+# # n1,n2=n2,n1
+
+
+# print('Value of N1 After swapping',n1)
+# print('Value of N2 After swapping',n2)
+
+
+# MOVE ZERO NUMBER TO THE LAST IN LIST
+# list1 = [10,0,20,0,30,0,40]
+
+# for i in list1:
+#     if i == 0:
+#         list1.remove(i)
+#         list1.append(i)
+
+# print(list1)
+
+#CHECK GIVEN STRING IS PALINDROME OR NOT
+# def is_palindrome(x):
+#     return x == x[::-1]
+
+# print(is_palindrome('Raza'))
+# print(is_palindrome('zaz'))
+
+
+# PROGRAM TO SORT LIST IN ASCENDING 0RDER
+# list1 = [3,5,2,7,6,1]
+# list1.sort()
+# print(list1)
+# list1.clear()
+# list1.reverse()
+# print(list1)
+# # TO PRINT SECOND LARGEST NUMBER
+# print(list1[-2])
+
+# WRTIE A PYTHON PROGRAM TO COUNT VOWELS IN A STRING
+# def count_vouwels(string):
+#     vowels = 'aeiouAEIOU'
+#     count = 0
+#     for char in string:
+#         if char in vowels:
+#             count+=1
+#     return count
+
+# print(count_vouwels('RAZA'))
+
+# def count_vowels(string):
+#     vowels = 'aeiouAEIOU'
+#     count = 0
+
+#     for char in string:
+#         if char in vowels:
+#             count+=1
+#     return count
+
+# print(count_vowels('RAZA'))
+
+
+
+# # Function to print full pyramid pattern
+# def full_pyramid(n):
+#     for i in range(1, n + 1):
+#         # Print leading spaces
+#         for j in range(n - i):
+#             print(" ", end="")
+        
+#         # Print asterisks for the current row
+#         for k in range(1, 2*i):
+#             print("*", end="")
+#         print()
+   
+# full_pyramid(5)
+
+
+# n = int(input('Enter Number: '))
+# def full_pyramid(n):
+#     for i in range(1,n+1):
+#         for j in range(n - i):
+#             print(' ',end='')
+
+#         for k in range(1,2*i):
+#             print('*',end='')
+#         print()
+
+# full_pyramid(n)
+
+
+# n = int(input('Enter Number: '))
+
+# def pyramid(n):
+#     for i in range(1,n+1):
+#         for j in range(n - i):
+#             print(' ',end='')
+        
+#         for k in range(1,2*i):
+#             print('*',end='')
+#         print()
+
+# pyramid(n)
+
+# def count_vowels(string):
+#     vowels = 'aeiouAEIOU'
+#     count = 0
+
+#     for char in string:
+#         if char in vowels:
+#             count+=1
+#     return count
+    
+# print('No of vowels: ',count_vowels('razax'))
+
+
+# def count_vowels(string):
+#     vowels = 'aeiouAEIOU'
+#     count = 0
+
+#     for char in string:
+#         if char in vowels:
+#             count += 1
+#     return count
+
+# print(count_vowels('Raza'))
+
+# n = int(input('Enter Number: '))
+# def pyramid(n):
+#     for i in range(1,n+1):
+#         for j in range(n - i):
+#             print(' ',end='')
+
+#         for k in range(1,2*i):
+#             print('*',end='')
+#         print()
+
+# pyramid(n)
+
+# n = int(input('Enter Number: '))
+
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(i,end='')
+#     print()
+
+# n = int(input('Enter Number: '))
+
+# def factorial(n):
+#     if n < 0:
+#         return 0
+#     elif n <= 1:
+#         return 1
+#     else:
+#         fact = 1
+#         while(n>1):
+#             fact *= n
+#             n -= 1
+#         return fact
+    
+# print(factorial(n))
+
+# n = int(input('Enter Number: '))
+
+# def factorial(n):
+#     return 1 if n == 0 or n == 1 else n * factorial(n-1)
+
+# print(factorial(n))
+
+# n = int(input('Enter Number: '))
+# n1 = 0
+# n2 = 1
+# n3 = n2
+# count = 0
+
+# while(count<=n):
+#     count += 1
+#     n1, n2 = n2, n3
+#     n3 = n1 + n2
+#     print(n2,end=' ')
+
+# n = int(input('Enter Number: '))
+# s = n
+# b = len(str(n))
+# sum1 = 0
+
+# while (n != 0):
+#     r = n % 10
+#     sum1 = sum1+(r**b)
+#     n = n // 10
+
+# if(s == sum1):
+#     print('is armstrong')
+# else:
+#     print('not armstrong')
+
+# n = int(input('Enter Number: '))
+# temp = n
+# rev = 0
+
+# while(n > 0):
+#     dig = n % 10
+#     rev = rev * 10 + dig
+#     n = n // 10
+
+# if(temp==rev):
+#     print('is palindrome')
+# else:
+#     print('not palindrome')
+
+# n = int(input('Enter Number: '))
+# square = n*n
+# flag = 0
+
+# while(n>0):
+#     if(n%10!=square%10):
+#         print('Not automorphic')
+#         flag = 1
+#         break
+
+#     square = square//10
+#     n = n//10
+
+# if(flag==0):
+#     print('is automorphic')
+
+
+# n = int(input('Enter Number: '))
+# def isprime(n):
+#     if n <= 1:
+#         print('Not prime')
+#     else:
+#         for i in range(2,n):
+#             if(n % i == 0):
+#                 return f'not prime'
+#             return f'is prime'
+
+# print(isprime(n))
+
+# n = int(input('Enter Number: '))
+
+# for i in range(n, 0, -1):
+#     for j in range(1, i+1):
+#         print('*',end='')
+#     print()
+
+# ==========================POLYMORPHISM EXAMPLE==========================================
+
+# class Animal:
+#     def feed(self):
+#         pass
+
+# class Lion(Animal):
+#     def feed(self):
+#         print('Feeding meat to lion')
+
+# class Elephant(Animal):
+#     def feed(self):
+#         print('Feeding plant to elephant')
+
+# class Bird(Animal):
+#     def feed(self):
+#         print('Feeding seed to animal')
+
+# def perform_feeding(animal):
+#     animal.feed()
+
+
+# lion = Lion()
+# elephant = Elephant()
+# bird = Bird()
+
+
+# perform_feeding(lion)
+# perform_feeding(elephant)
+# perform_feeding(bird)
+
+# ================================Method Overloading in Python====================================
+
+# class Calculator:
+#     def add(self, a, b, c=None):
+#         if c is not None:
+#             return a + b + c
+#         else:
+#             return a * b
+
+# # '----- Method Overloading Using Variable length Argument -----'
+#     # def add(self, *args):
+#     #     return sum(args)
+    
+
+# calc = Calculator()
+
+# result = calc.add(3,2)
+# result1 = calc.add(1,2,3)
+
+# print(f'Result of two parameter is {result}')
+# print(f'Result of three parameter is {result1}')
+
+# ===================================================================================
+
+# n = int(input('Enter Number: '))
+# temp = n
+# rev = 0
+
+# while(n>0):
+#     dig = n % 10
+#     rev = rev * 10 + dig
+#     n = n // 10
+
+# if(temp==rev):
+#     print('is palindrome')
+# else:
+#     print('Not palindrome')
+
+
+
+# n = int(input('Enter Number: '))
+# square  = n * n
+# flag = 0
+
+# while(n>0):
+#     if(n%10!=square%10):
+#         print('not automorphic')
+#         flag = 1
+#         break
+
+#     square = square//10
+#     n = n //10
+
+# if(flag==0):
+#     print('Is automorphic')
+    
+
+# n = int(input('Enter Number: '))
+
+# def isprime(n):
+#     if(n<=1):
+#         print('Is not a prime no')
+#     else:
+#         for i in range(2,n):
+#             if(n % i == 0):
+#                 return f'not prime no'
+#             return f'is prime no'
+
+# print(isprime(n))
+
+# n = int(input('Enter Number: '))
+# n1 = 0
+# n2 = 1
+# n3 = n2
+# count = 0
+
+# while(count<=n):
+#     count+=1
+#     n1, n2 = n2, n3
+#     n3 = n1 + n2
+#     print(n2,end=' ')
+
+
+# n = int(input('Enter Number: '))
+# def factorial(n):
+#     return 1 if n == 0 or n == 1 else n * factorial(n-1)
+
+# print(factorial(n))
+
+
+# n = int(input('Enter Number: '))
+# def factorial(n):
+#     if n < 0:
+#         return 0
+#     elif n <= 1:
+#         return 1
+#     else:
+#         fact = 1
+#         while(n > 1):
+#             fact *= n
+#             n -= 1
+#         return fact
+    
+# print(factorial(n))
+
+# n = int(input('Enter Number: '))
+# s = n
+# b = len(str(n))
+# sum1 = 0
+
+# while(n != 0):
+#     r = n % 10
+#     sum1 = sum1 + (r**b)
+#     n = n // 10
+
+# if(s == sum1):
+#     print('is armstrong')
+# else:
+#     print('not armstong')
+
+
+
+# def count_vowels(string):
+#     vowels = 'aeiouAEIOU'
+#     count = 0
+
+#     for char in string:
+#         if char in vowels:
+#             count+=1
+#     return count
+
+# print(count_vowels('Raza'))
+    
+
+# n = int(input('Enter Number: '))
+
+# # for i in range(1, n+1):
+# #     for j in range(1, i+1):
+# #         print('*',end=' ')
+# #     print()
+
+
+# for i in range(n, 0, -1):
+#     for j in range(1, i+1):
+#         print('*', end=' ')
+#     print()
+
+
+# n = int(input('Enter Number: '))
+# def pyramid(n):
+#     for i in range(1, n+1):
+#         for j in range(n - i):
+#             print(' ', end=' ')
+
+#         for k in range(1, 2*i):
+#             print('*', end=' ')
+#         print()
+
+# pyramid(n)
+
+
+# n = int(input('Enter Number: '))
+
+# def pyramid(n):
+#     for i in range(1, n+1):
+#         for j in range(n - i):
+#             print(' ', end=' ')
+        
+#         for k in range(1, 2 * i):
+#             print('*', end=' ')
+#         print()
+
+# pyramid(n)
+
+
+# def count_vowels(string):
+#     vowels = 'aeiouAEIOU'
+#     count = 0
+
+#     for char in string:
+#         if char in vowels:
+#             count+=1
+#     return count
+    
+# print(count_vowels('raza'))
+
+# list1 = [10,40,20,0,0,50,30]
+
+# # for i in list1:
+# #     if i == 0:
+# #         list1.remove(0)
+# #         list1.append(0)
+
+# # print(list1)
+# list1.sort()
+# print(list1)
+# list1.reverse()
+# print(list1)
+
+
+# ==========================POLYMORPHISM EXAMPLE==========================================
+# class Animal:
+#     def feed(self):
+#         pass
+
+# class Lion(Animal):
+#     def feed(self):
+#         print('Feeding meat to lion')
+
+# class Elephant(Animal):
+#     def feed(self):
+#         print('Feeding plant to elephant')
+
+# class Bird(Animal):
+#     def feed(self):
+#         print('Feeding seeds to birds')
+    
+# def perform_feeding(animal):
+#     animal.feed()
+
+# lion = Lion()
+
+# perform_feeding(lion)
+# --------------------------------------
+# class Animal:
+#     def feed(self):
+#         pass
+
+# class Lion:
+#     def feed(self):
+#         print('Feeding meat to lion')
+
+# class Elephant:
+#     def feed(self):
+#         print('Feeding plant to elephant')
+
+# class Bird:
+#     def feed(self):
+#         print('Feeding seeds to bird')
+
+# def perform_feedi(animal):
+#     animal.feed()
+
+
+# lion = Lion()
+
+# perform_feedi(lion)
+
+# ==========================DUCK TYPING==========================================
+
+# class Cat:
+#     def speak(self):
+#         return 'Meow!'
+    
+# class Dog:
+#     def speak(self):
+#         return 'Woof!'
+    
+# class Duck:
+#     def speak(self):
+#         return 'Quack!'
+    
+# def make_sound(animal):
+#     print(animal.speak())
+
+#     if hasattr(animal,'speak'):
+#         print(animal.speak())
+
+#     # if hasattr(animal,'run'):
+#     #     print(animal.run())
+
+
+# cat = Cat()
+
+# make_sound(cat)
+ 
+
+
+# n = int(input('Enter Number: '))
+
+# def isprime(n):
+#     if(n<=1):
+#         print('Not prime')
+#     else:
+#         for i in range(2, n):
+#             if(n % i == 0):
+#                 return f'not prime'
+#             return f'is prime'
+    
+# print(isprime(n))
+
+
+# def factorial(n):
+#     return 1 if n == 0 or n == 1 else n * factorial(n-1)
+
+# def factorial(n):
+#     if n <= 0:
+#         return 0
+#     elif n <= 1:
+#         return 1
+#     else:
+#         fact = 1
+#         while(n > 1):
+#             fact *= n
+#             n -= 1
+#         return fact
+    
+# print(factorial(n))
+
+
+# n = int(input('Enter Number: '))
+# n1 = 0
+# n2 = 1
+# n3 = n2
+# count = 0
+
+# while(count<=n):
+#     count+=1
+#     n1, n2 = n2, n3
+#     n3 = n1 + n2
+#     print(n2,end=' ')
+
+
+# n = int(input('Enter Number: '))
+# temp = n
+# rev = 0
+
+# while(n>0):
+#     dig = n % 10
+#     rev = rev * 10 + dig
+#     n = n // 10
+
+# if(temp==rev):
+#     print('is palindrome')
+# else:
+#     print('not palindrome')
+
+
+# n = int(input('Enter Number: '))
+# s = n
+# b = len(str(n))
+# sum1 = 0
+
+# while(n != 0):
+#     r = n % 10
+#     sum1 = sum1 + (r**b)
+#     n = n // 10
+
+# if(s == sum1):
+#     print('is armstrong')
+# else:
+#     print('not armstrong')
+
+# n = int(input('Enter Number: '))
+# square = n*n
+# flag = 0
+
+# while(n>0):
+#     if(n%10!=square%10):
+#         print('not automorphic')
+#         flag = 1
+#         break
+
+#     square = square//10
+#     n = n//10
+
+# if(flag==0):
+#     print('is automorphic')
+
+
+
+# def count_vowels(string):
+#     vowels = 'aeiouAEIOU'
+#     count = 0
+
+#     for char in string:
+#         if char in vowels:
+#             count+=1
+#     return count
+
+# print(count_vowels('raza'))
+
+
+# size = int(input('Enter size: '))
+# def hollow_square(size):
+#     if(size<2):
+#         print('size should be greater then 2')
+
+#         return
+    
+#     for i in range(size):
+#         for j in range(size):
+#             if i == 0 or  i == size - 1 or j == 0 or j == size-1:
+#                 print('*',end=' ')
+#             else:
+#                 print(' ',end=' ')
+#         print()
+
+# print(hollow_square(size))
+
+# n = int(input('Enter Number: '))
+
+
+# for i in range(1, n+1):
+#     for j in range(1, i+1):
+#         print('*',end=' ')
+#     print()
+
+# def pyranimd(n):
+#  for i in range(1, n+1):
+#     for j in range(n - i):
+#         print(' ',end=' ')
+    
+#     for k in range(1, 2 * i):
+#         print('*',end=' ')
+#     print()
+
+# pyranimd(n)
+
+
+# for i in range(n, 0, -1):
+#     for j in range(1, i+1):
+#       print('*',end=' ')
+#     print()
+
+# ================================================================================
+# class Calculator:
+
+#     def add(self, a, b, c=None):
+#         if c is not None:
+#             return a + b + c
+#         else:
+#             return a * b
+        
+
+# cal = Calculator()
+
+# reslult = cal.add(1, 3)
+# reslult1 = cal.add(2,3,2)
+
+# print(reslult)
+# print(reslult1)
+
+
+# n = int(input('Enter Number: '))
+
+# for i in range(1, n+1):
+#     for j in range(n - i):
+#         print(' ',end=' ')
+
+#     for k in range(1, 2 * i):
+#         print('*',end=' ')
+#     print()
+
+
+
+# class Calculator:
+
+#     def add(self, a, b, c=None):
+#         if c is not None:
+#             return a + b + c
+#         else:
+#             return a * b
+        
+    
+# cal = Calculator()
+
+# print(cal.add(10,20,10))
+# ------------------------------------------
+
+# def maximum(a, b):
+#   if a >= b:
+#     return a
+#   else:
+#     return b
+
+# print(max(40,20))
+
+
+# n = int(input('Enter Number: '))
+# def isprime(n):
+#     if n <= 1:
+#         print('not prime')
+#     else:
+#         for i in range(2, n):
+#             if n % i == 0:
+#                 return f'not prime'
+#             return f'is prime'
+        
+# print(isprime(n))
+
+# n = int(input('Enter Number: '))
+# n1 = 0
+# n2 = 1
+# n3 = n2
+# count = 0
+
+# while(count<=n):
+#     count+=1
+#     n1, n2 = n2, n3
+#     n3 = n1 + n2
+#     print(n2, end=' ')
+
+
+# n = int(input('Enter Number: '))
+
+# def factorial(n):
+#     if n < 0:
+#         return 0
+#     elif n < 1:
+#         return 1
+#     else:
+#         fact = 1
+#         while(n > 1):
+#             fact *= n
+#             n -= 1
+#         return fact
+
+# print(factorial(n)) 
+
+# n = int(input('Enter Number: '))
+# s = n
+# b = len(str(n))
+# sum1 = 0
+
+# while n != 0:
+#     r = n % 10
+#     sum1 = sum1 + (r**b)
+#     n = n // 10
+
+# if(s == sum1):
+#     print('is armstrong')
+# else:
+#     print('Not armstrong')
+
+# n = int(input('Enter Number: '))
+# temp = n
+# rev = 0
+
+# while(n > 0):
+#     dig = n % 10
+#     rev = rev * 10 + dig
+#     n = n // 10
+
+# if(temp==rev):
+#     print('is palindrome')
+# else:
+#     print('Not plaindrome')
+
+# n = int(input('Enter Number: '))
+
+# def pyramid(n):
+#     for i in range(1,n+1):
+#         for j in range(n - i):
+#             print(' ', end=' ')
+
+#         for k in range(1, 2*i):
+#             print('*',end=' ')
+#         print()
+
+# pyramid(n)
+
+# for i in range(n, 0, -1):
+#     for j in range(1, i+1):
+#         print('*',end=' ')
+#     print()
+
+# for i in range(1, n+1):
+#     for j in range(1, i+1):
+#         print('*',end=' ')
+#     print()
+
+# for i in range(1, n+1):
+#     for j in range(1, i+1):
+#         print(chr(i),end=' ')
+#     print()
+
+# string = 'LILRAZA'
+# lwr = string.lower()
+# print(lwr)
+
+# str1 = 'my name is raza turabi'
+# str2 = str1.split(" ")
+# print(str2)
+
+# def count_vowels(string):
+#     vowels = 'aeiouAEIOU'
+#     count = 0
+
+#     for char in string:
+#         if char in vowels:
+#             count+=1
+#     return count
+
+# print(count_vowels('raza'))
+
+# --------------------------------------------
+#  Write a Python program to remove duplicates from a list.
+# list1 = [1, 2, 3, 4, 5]
+# list2 = [4, 5, 6, 7, 8]
+
+# def fce(list1, list2):
+#     common_elements = []
+#     for item in list1:
+#         if item in list2:
+#             common_elements.append(item)
+#     return common_elements
+
+# # Test the function
+# common = fce(list1, list2)
+# print(common)
+
+
+# ==============================================================================================
+# Monkey patching in Python is a dynamic technique that can change the behavior of the code at run-time. In short, you can modify a class or module at run-time.
+# class monkey:
+#     def patch(self):
+#           print ("patch() is being called")
+
+# def monk_p(self):
+#     print ("monk_p() is being called")
+
+# # replacing address of "patch" with "monk_p"
+# monkey.patch = monk_p
+
+# obj = monkey()
+
+# obj.patch()
+# monk_p() is being called
+
+
+# ============================================================================
+
+# n = int(input('Enter Number: '))
+# temp = n
+# rev = 0
+
+# while(n > 0):
+#     dig = n % 10
+#     rev = rev * 10 + dig
+#     n = n // 10
+
+# if(temp==rev):
+#     print('IS PALINDROME')
+# else:
+#     print('NOT PALINDROME')
+
+
+# n = int(input('Enter Number: '))
+
+# def factorial(n):
+#     if n < 0:
+#         return 0
+#     elif n <=1:
+#         return 1
+#     else:
+#         fact = 1
+#         while(n > 1):
+#             fact *= n
+#             n -= 1
+#         return fact
+    
+# print(factorial(n))
+
+# def factorial(n):
+#     return 1 if n == 0 or n == 1 else n * factorial(n-1)
+
+# print(factorial(n))
+
+
+# n = int(input('Enter Number: '))
+# n1 = 0
+# n2 = 1
+# n3 = n2
+# count = 0
+
+# while(count<=n):
+#     count+=1
+#     n1, n2 = n2, n3
+#     n3 = n1 + n2
+#     print(n2,end=' ')
+
+
+# n = int(input('Enter Number: '))
+# s = n
+# b = len(str(n))
+# sum1 = 0
+
+# while(n != 0):
+#     r = n % 10
+#     sum1 = sum1 + (r**b)
+#     n = n // 10
+
+# if(s == sum1):
+#     print('is armstrong')
+# else:
+#     print('Not armstrong')
+
+
+# n = int(input('Enter Number: '))
+
+# def isprime(n):
+#     if n <= 1:
+#         print('not prime')
+#     else:
+#         for i in range(2, n):
+#             if n % i == 0:
+#                 return f'not prime'
+#             return f'is prime'
+        
+# print(isprime(n))
+
+
+# n = int(input('Enter Number: '))
+# square = n * n
+# flag = 0
+
+# while(n > 0):
+#     if(n%10!=square%10):
+#         print('Not automorphic')
+#         flag = 1
+#         break
+
+#     square = square//10
+#     n = n//10
+
+# if(flag==0):
+#     print('IS automorphic')
+
+
+
+# n = int(input('Enter Number: '))
+
+# for i in range(n, 0, -1):
+#     for j in range(1, i+1):
+#         print('*',end=' ')
+#     print()
+
+
+# for i in range(1, n+1):
+#     for j in range(1, i+1):
+#         print('*',end=' ')
+#     print()
+
+
+# def pyramid(n):
+#     for i in range(1, n+1):
+#         for j in range(n - i):
+#             print(' ',end=' ')
+
+#         for k in range(1, 2 * i):
+#             print('*',end=' ')
+#         print()
+
+# pyramid(n)
+
+
+# n = int(input('Enter Number: '))
+# s = n
+# b = len(str(n))
+# sum1 = 0
+
+# while(n != 0):
+#     r = n % 10
+#     sum1 = sum1 + (r**b)
+#     n = n // 10
+
+# if(s == sum1):
+#     print('is armstrong')
+# else:
+#     print('not armstrong')
+
+# n = int(input('Enter Number: '))
+# temp = n
+# rev = 0
+
+# while(n > 0):
+#     dig = n % 10
+#     rev = rev * 10 + dig
+#     n = n // 10
+
+# if(temp==rev):
+#     print('Is palindrome')
+# else:
+#     print('Not palindrome')
+
+
+# n = int(input('Enter Number: '))
+# square = n * n
+# flag = 0
+
+# while(n > 0):
+#     if(n%10!=square%10):
+#         print('Not automorphic')
+#         flag = 1
+#         break
+
+#     square = square//10
+#     n = n//10
+
+# if(flag == 0):
+#     print('is automorphic')
+
+# n = int(input('Enter Number: '))
+# n1 = 0
+# n2 = 1
+# n3 = n2
+# count = 0
+
+# while(count<=n):
+#     count+=1
+#     n1, n2 = n2, n3
+#     n3 = n1 + n2
+#     print(n2,end=' ')
+
+# n = int(input('Enter Number: '))
+
+# def factorial(n):
+#     if n < 0:
+#         return 0
+#     elif n <= 1:
+#         return 1
+#     else:
+#         fact = 1
+#         while(n > 1):
+#             fact *= n
+#             n -= 1
+#         return fact
+    
+# print(factorial(n))
+
+
+# def factorial(n):
+#     return 1 if n == 0 or n == 1 else n * factorial(n-1)
+
+# print(factorial(n))
+
+# n = int(input('Enter Number: '))
+
+# def isprime(n):
+#     if(n<=1):
+#         print('not prime')
+#     else:
+#         for i in range(2, n):
+#             if(n % i == 0):
+#                 return f'not prime'
+#             return f'is prime'
+        
+# print(isprime(n))
+
+# size = int(input('Enter Number: '))
+
+# def square_hollow(size):
+#     if(size<2):
+#         print('size should be greater then 2')
+
+#         return
+    
+#     for i in range(size):
+#         for j in range(size):
+#             if i == 0 or i == size-1 or j == 0 or j == size-1:
+#                 print('*',end=' ')
+#             else:
+#                 print(' ',end=' ')
+#         print()
+
+# square_hollow(size)
+
+
+# n = int(input('Enter Number: '))
+
+# for i in range(1, n+1):
+#     for j in range(1, i+1):
+#         print('*',end=' ')
+#     print()
+
+# for i in range(n, 0, -1):
+#     for j in range(1, i+1):
+#         print('*',end=' ')
+#     print()
+
+# def pyramid(n):
+#     for i in range(1, n+1):
+#         for j in range(n - i):
+#             print(' ',end=' ')
+
+        
+#         for k in range(1, 2*i):
+#             print('*',end=' ')
+#         print()
+
+# pyramid(n)
+
+# for i in range(1, n+1):
+#     for j in range(1, i+1):
+#         print(i, end=' ')
+#     print()
+
+
+# for i in range(1, n+1):
+#     for j in range(1, i+1):
+#         print(j, end=' ')
+#     print()
+
+# ==============================================POLYHMORPHISM CONCEPT======================================================
+# class Animal:
+#     def feed(self):
+#         pass
+
+# class Lion(Animal):
+
+#     def feed(self):
+#         print('Feeding meat to lion')
+
+# class Elephant(Animal):
+    
+#     def feed(self):
+#         print('feeding plants to elephants')
+
+# class Bird(Animal):
+
+#     def feed(self):
+#         print('Feeding seeds to bird')
+
+# def perfrom_feeding(animal):
+#     animal.feed()
+
+
+# lion = Lion()
+
+# perfrom_feeding(lion)
+
+# --------------------------DUCK TYPING--------------------------------
+
+# class Dog:
+#     def speak(self):
+#         return 'Woof!'
+    
+# class Cat:
+#     def speak(self):
+#         return 'Mewo!'
+    
+# class Duck:
+#     def speak(self):
+#         return 'Quack!'
+    
+# def make_sound(animal):
+#     return animal.speak()
+
+# dog = Dog()
+# cat = Cat()
+# duck = Duck()
+
+# print(make_sound(dog))
+# print(make_sound(cat))
+# print(make_sound(duck))
